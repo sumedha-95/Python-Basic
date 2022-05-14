@@ -20,7 +20,7 @@ b) Find out the time complexity of bubble sort in Big O Notation.
 
 A=[]
 for v in range(8):
-    A.append(input("Enter Number : "))
+    A.append(int(input("Enter Number : ")))
 print(A)
 
 #implementation of bubblesort
